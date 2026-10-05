@@ -1,0 +1,12 @@
+{
+  "name": "scratchjr-web",
+  "version": "1.3.2",
+  "private": true,
+  "description": "ScratchJr 1.3.2 as a browser web app",
+  "scripts": {
+    "postinstall": "npm --prefix web install",
+    "build": "npm --prefix web run build",
+    "dev": "npm --prefix web run dev",
+    "preview": "npm --prefix web run preview"
+  }
+}
